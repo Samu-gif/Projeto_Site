@@ -2,4 +2,26 @@
     padding: 0;
     border: none;
     margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/*  Estilo do header */
+header{
+    width: 100%;
+    padding: 10px 0;
+}
+
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

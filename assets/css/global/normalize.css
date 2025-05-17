@@ -14,18 +14,28 @@ body{
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
 /* Estilo do header */
 header{
     width: 100%;
     padding: 40px 0;
+=======
+/*  Estilo do header */
+header{
+    width: 100%;
+    padding: 10px 0;
+>>>>>>> c45983fc426a8ade41deae7a9fe3eaa803e1f059
 }
 
 header .interface{
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
 }
 
 header .logo img{
     max-width: 40px;
+=======
+>>>>>>> c45983fc426a8ade41deae7a9fe3eaa803e1f059
 }

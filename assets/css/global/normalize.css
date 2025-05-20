@@ -3,6 +3,7 @@
     border: none;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Lato", sans-serif;
 }
 
 body{
@@ -14,28 +15,62 @@ body{
     margin: 0 auto;
 }
 
-<<<<<<< HEAD
-/* Estilo do header */
-header{
-    width: 100%;
-    padding: 40px 0;
-=======
 /*  Estilo do header */
 header{
     width: 100%;
     padding: 10px 0;
->>>>>>> c45983fc426a8ade41deae7a9fe3eaa803e1f059
 }
 
 header .interface{
     display: flex;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
 }
 
 header .logo img{
     max-width: 40px;
-=======
->>>>>>> c45983fc426a8ade41deae7a9fe3eaa803e1f059
+    cursor: pointer;
+}
+
+header .menu-desktop nav ul{
+    list-style-type: none;
+
+}
+
+header .menu-desktop nav ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header .menu-desktop nav ul li a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+.menu-desktop nav a:hover{
+    transform: scale(1.05);
+}
+
+header .btn-contato button{
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+}
+
+header .btn-contato button:hover{
+    background-color: black;
+    color: #fff;
+}
+
+/* Estilo do Hero */
+section.hero-site{
+    height: 100vh;
+    background-image: url(../../images/index/software-developer-6521720_1280.jpg);
 }

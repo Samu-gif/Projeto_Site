@@ -62,7 +62,7 @@ header .btn-contato button{
     height: 50px;
 }
 
-header .btn-contato button{
+header .btn-contato button, .desafios button{
     font-size: 18px;
     background-color: transparent;
     border: 1px solid #fff;
@@ -80,7 +80,7 @@ header .btn-contato button{
     transition: .5s;
 }
 
-header .btn-contato button:hover{
+header .btn-contato button:hover, .desafios button:hover{
     background-color: black;
     color: #fff;
 }
@@ -234,14 +234,14 @@ section.contato{
 .contato .txt-contato h3{
     font-size: 2.5em;
     line-height: 50px;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 20px;
     color: #fff;
 }
 
 .contato .txt-contato h3 span{
     display: block;
-    font-weight: 900;
+    font-weight: 600;
     color: #fff;
 }
 
@@ -274,4 +274,60 @@ section.contato{
 
 .contato .icons-contato button:hover i, .contato .icons-contato button:hover p{
     color: black;
+}
+
+/* Estilo da Sessão Desafio */
+section.desafios{
+    height: 600px;
+    background-attachment: fixed;
+
+    background-image: url(../../images/index/desafio_1280.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+.desafios > .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0000008c;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.desafios  > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+.desafios h3{
+    font-size: 3em;
+    line-height: 50px;
+    font-weight: 300;
+}
+
+.desafios h3 span{
+    display: block;
+    font-weight: 700;
+}
+
+.desafios p{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.desafios button{
+    width: 220px;
+    height: 60px;
 }

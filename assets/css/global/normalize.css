@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #010d266c;
+    background-color: #000000e7;
 }
 
 .interface{
@@ -202,7 +202,7 @@ section.vantagens{
 }
 
 .vantagens .itens-container .txt-itens h3{
-    color: black;
+    color: #fff;
     font-size: 3em;
     line-height: 50px;
     margin-bottom: 20px;
@@ -211,4 +211,67 @@ section.vantagens{
 .itens-container .txt-itens h3 span{
     color: #fff;
     font-weight: 300;
+}
+
+.itens-container .txt-itens p{
+    color: #fff;
+    font-size: 1.3em;
+}
+
+/* Estilo dos Botões de Contato */
+section.contato{
+    background-color: #505050a6;
+    padding: 80px;
+}
+
+.txt-contato, .icons-contato{
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: middle;
+}
+
+.contato .txt-contato h3{
+    font-size: 2.5em;
+    line-height: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.contato .txt-contato h3 span{
+    display: block;
+    font-weight: 900;
+    color: #fff;
+}
+
+.contato .icons-contato a{
+    text-decoration: none;
+}
+
+.contato .icons-contato button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    height: 60px;
+    margin: 0 auto 20px auto;
+    padding: 0 60px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: #fff;
+    transition: .5s;
+}
+
+.contato .icons-contato button i{
+    font-size: 20px;
+    color: #fff;
+}
+
+.contato .icons-contato button:hover{
+    background-color: #fff;
+}
+
+.contato .icons-contato button:hover i, .contato .icons-contato button:hover p{
+    color: black;
 }
